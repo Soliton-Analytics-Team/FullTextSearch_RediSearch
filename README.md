@@ -87,12 +87,11 @@ Redisを取得して、インストールします。
     redis-cli 7.0.0
     Redis server v=7.0.0 sha=00000000:0 malloc=jemalloc-5.2.1 bits=64 build=698b5df4772f6164
 
+モジュールを導入可能にする設定を追加します。
 
 ```shell
-!!echo "enable-module-command yes" >> /etc/redis/redis.conf
+!echo "enable-module-command yes" >> /etc/redis/redis.conf
 ```
-
-    []
 
 Redisを起動します。
 
