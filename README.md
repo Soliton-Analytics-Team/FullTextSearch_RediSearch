@@ -140,7 +140,7 @@ redisearch.soの場所を確認して、RediSearchモジュールをロードし
 
 ## データのインポート
 
-Pythonのredisearchモジュールをインストールします。
+Pythonのredisearchモジュールをインストールします。pipのエラーが出力される場合がありますが、モジュールはインストールされるのでここでは気にせず進めます。
 
 ```shell
 !pip install redisearch
